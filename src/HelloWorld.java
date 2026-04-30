@@ -13,6 +13,7 @@ public class HelloWorld {
         String goal = "Java Full Stack Developer";
         int months = 10;
         boolean isBeginner = true;
+        double currentProgress = 6.0;  //new data type
 
         System.out.println("=====================================");
         System.out.println("Hello World!");
@@ -21,9 +22,10 @@ public class HelloWorld {
         System.out.println("I am learning to become a " + goal);
         System.out.println("I will become job ready in " + months + " months.");
         System.out.println("Am I a beginner? " + isBeginner);
+        System.out.println("My current progress is "+ currentProgress + " months.");
         System.out.println("=====================================");
 
         // Extra message with new line
-        System.out.println("\nI will become a Full Stack Developer in 9-12 months!");
+        System.out.println("\nI am determined to become a successful Full Stack Developer");
     }
 }
