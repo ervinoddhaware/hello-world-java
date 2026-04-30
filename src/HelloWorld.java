@@ -6,12 +6,20 @@
 public class HelloWorld {   // 1 class declaration
     public static void main(String arg[])  // main method starting pt of the prog.
     {
+        //variable declare kar rahe hai
+        String name = "Vinod Dhaware";
+        String city = "Pune";
+        String goal = "Java Full Stack Developer";
+        int month = 9;
+        boolean isBeginner = true;
+
         System.out.println("=================================");
         System.out.println("Hello World!");
-        System.out.println("My name is Vinod");
-        System.out.println("I live in Pune city");
-        System.out.println("I am learing java full stack");
-        System.out.println("This is my first program");
+        System.out.println("My name is " + name);
+        System.out.println("I live in " + city + " city.");
+        System.out.println("I am learing to become a " + goal);
+        System.out.println("I will become job ready in "+ month +" months.");
+        System.out.println("Am i beginner? "+ isBeginner);
         System.out.println("=================================");
 
         //Extra line for practice
