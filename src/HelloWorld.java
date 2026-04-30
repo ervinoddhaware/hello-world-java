@@ -10,7 +10,7 @@ public class HelloWorld {   // 1 class declaration
         String name = "Vinod Dhaware";
         String city = "Pune";
         String goal = "Java Full Stack Developer";
-        int month = 9;
+        int month = 10;
         boolean isBeginner = true;
 
         System.out.println("=================================");
